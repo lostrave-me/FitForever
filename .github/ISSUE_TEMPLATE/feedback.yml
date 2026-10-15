@@ -1,0 +1,31 @@
+{
+  "name": "Playtest feedback / Впечатления",
+  "description": "Tell us how the addon felt / Рассказать об опыте игры",
+  "title": "[Feedback]: ",
+  "body": [
+    {
+      "type": "textarea",
+      "id": "timing",
+      "attributes": {
+        "label": "Were reminders convenient? / Напоминания появлялись вовремя?"
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "clarity",
+      "attributes": {
+        "label": "Were exercises clear? / Упражнения были понятны?"
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "priority",
+      "attributes": {
+        "label": "What should change first? / Что изменить в первую очередь?"
+      },
+      "validations": {
+        "required": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Suggestion / Пожелание",
+  "description": "Suggest an improvement / Предложить улучшение",
+  "title": "[Suggestion]: ",
+  "body": [
+    {
+      "type": "textarea",
+      "id": "situation",
+      "attributes": {
+        "label": "Situation / Игровая ситуация"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "idea",
+      "attributes": {
+        "label": "What would help? / Что сделать удобнее?"
+      },
+      "validations": {
+        "required": true
+      }
+    }
+  ]
+}
