@@ -1,0 +1,50 @@
+name: Bug report / Ошибка
+description: Report unexpected behavior / Сообщить об ошибке
+title: "[Bug]: "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: FitForever version / Версия аддона
+    validations:
+      required: true
+  - type: input
+    id: client
+    attributes:
+      label: WoW client version / Версия клиента
+    validations:
+      required: true
+  - type: dropdown
+    id: context
+    attributes:
+      label: Context / Где произошло
+      options:
+        - Open world / Открытый мир
+        - Dungeon / Подземелье
+        - Raid / Рейд
+        - Battleground or arena / БГ или арена
+        - Flight / Полёт
+        - Login or reload / Вход или reload
+        - Other / Другое
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened? / Что произошло?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect? / Что ожидалось?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps / Как повторить
+  - type: textarea
+    id: error
+    attributes:
+      label: Optional error or screenshot / Ошибка или скриншот, если есть
