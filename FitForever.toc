@@ -1,0 +1,19 @@
+## Interface: 16001
+## Title: FitForever
+## Notes: Gentle reminders for movement, eyes, water and meals.
+## Notes-ruRU: Спокойные напоминания о разминке, глазах, воде и еде.
+## Author: lostrave
+## Version: 0.7.2-beta
+## SavedVariables: FitForeverDB
+## IconTexture: Interface\Icons\Spell_Nature_Rejuvenation
+Locales.lua
+Data.lua
+Engine.lua
+Artwork.lua
+Activity.lua
+Opportunities.lua
+UI.lua
+Core.lua
+
+## X-Curse-Project-ID: 1746886
+## X-Website: https://github.com/lostrave-me/FitForever
